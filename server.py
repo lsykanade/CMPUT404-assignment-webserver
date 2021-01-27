@@ -61,7 +61,7 @@ class MyWebServer(socketserver.BaseRequestHandler):
     			path = os.path.join(path, "index.html")
     			file = open(path, "r")
     			content = file.read()
-    			response = "HTTP/1.1 307 Temporary Redirect\r\nLocation: " + redirection + "\r\nContent-Type: text/html\r\n\r\n"+content
+    			response = "HTTP/1.1 301 Move Permanently\r\nLocation: " + redirection + "\r\nContent-Type: text/html\r\n\r\n"+content
     		else:
     			path = os.path.join(path, "index.html")	
     			file = open(path, "r")

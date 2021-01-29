@@ -18,12 +18,14 @@ server.py contains contributions from:
 * Eddie Antonio Santos
 * Jackson Z Chang
 * Mandy Meindersma 
+* Siyuan Liu
 
 But the server.py example is derived from the python documentation
 examples thus some of the code is Copyright © 2001-2013 Python
 Software Foundation; All Rights Reserved under the PSF license (GPL
 compatible) http://docs.python.org/2/library/socketserver.html
 
-Contributers: Siyuan Liu
-Collaboration with Jeremy Choo (also in the class)
+Collaboration 
+========================
+Jeremy Choo who is also in the class(ccid: sheeyeow)
 
